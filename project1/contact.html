@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wout Buys - Product Expert UC&C</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Fontstyle: Montserrat SemiBold & Lora-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    >
+    <!-- Link to CSS-stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigatibalk -->
+    <div class="grid-nav">
+      <div class="grid-nav">
+        <img
+          src="images/WB-logo.jpg"
+          alt="Logo Wout Buys"
+          title="Logo Wout Buys"
+        >
+      </div>
+      <div class="flexbox-name">
+        <div>Wout Buys</div>
+        <div>Product Expert UC&C</div>
+      </div>
+      <div class="flexbox-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbys.html">Bio</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="ervaring.html">XP</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Alles onder navigatiebalk -->
+    <div class="grid-contact">
+      <div></div>
+      <div></div>
+      <div>
+        <div>
+          <p>Wenst u mij te contacteren? Dat kan op volgende manieren:</p>
+          <a href="mailto:r1094217@student.thomasmore.be"
+            ><img
+              class="contact-img"
+              src="images/emailicoon.png"
+              alt="Emailicon"
+              title="Email"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/wout-buys-308076118/"
+            target="_blank"
+            ><img
+              class="contact-img"
+              src="images/LinkedIn_icon.png"
+              alt="LinkedIn icon"
+              title="LinkedIn"
+          ></a>
+        </div>
+        <p>
+          Of u vult dit formulier in en ik contacteer u zo spoedig mogelijk.
+        </p>
+        <!-- Nog te controleren hoe dit script lokaal te runnen zonder server van Niels -->
+        <!-- Nog een Legend field te zetten rond de kadertjes met daarin de placeholder zodat placeholder weg kan of meer fictieve values kan worden-->
+        <form action="https://tm-statweb.be/sendmail.php" method="post">
+          <input
+            type="hidden"
+            name="studentemail"
+            value="r1094217@student.thomasmore.be"
+          >
+          <input
+            type="hidden"
+            name="subject"
+            value="Contactform www.woutbuys.be"
+          >
+          <div>
+            <!-- <label for="familienaam">Naam:</label> -->
+            <input
+              type="text"
+              name="familienaam"
+              id="familienaam"
+              placeholder="Familienaam"
+              required
+            >
+            <!-- <label for="voornaam">Voornaam:</label> -->
+            <input
+              type="text"
+              name="naam"
+              id="naam"
+              placeholder="Voornaam"
+              required
+            >
+          </div>
+          <div>
+            <!-- <label for="bedrijf">Bedrijf:</label> -->
+            <input
+              type="text"
+              name="bedrijf"
+              id="bedrijf"
+              placeholder="Bedrijf"
+            >
+            <!-- <label for="telefoonnummer">Telefoonnummer:</label> -->
+            <input
+              type="text"
+              name="telefoonnummer"
+              id="telefoonnummer"
+              placeholder="+32..."
+            >
+          </div>
+          <div>
+            <!-- <label for="email">Email:</label> -->
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@example.com"
+              required
+              size="50"
+            >
+          </div>
+          <div>
+            <!-- <label for="bericht">Bericht:</label> -->
+          </div>
+          <div>
+            <textarea
+              name="bericht"
+              id="bericht"
+              placeholder="Uw bericht ..."
+              rows="10"
+              cols="50"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" value="Verzenden">
+        </form>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>

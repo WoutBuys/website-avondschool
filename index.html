@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction: column; */
+            gap: 0.5rem;
+        }
+        .container>div {
+            border: 1px solid black;
+            padding: 0.5rem;
+        }
+        .container>div h2{
+            text-align: center;
+        }
+        .art2{
+            background-color: red;
+            border-radius: 20px;
+        }
+        @media (width <= 768px) {
+                .container {
+                    flex-direction: column;  
+                } 
+            }
+    </style>
+</head>
+<body>
+    <h1>Dit is een testwebsite</h1>
+    <div class="container">
+        <div>
+            <h2>Artikel 1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta architecto nobis accusamus minus, accusantium sunt voluptatum repellendus, sit non repellat possimus, nisi laudantium a veritatis labore adipisci natus veniam esse.</p>
+        </div>
+        <div class="art2">
+            <h2>Artikel 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta architecto nobis accusamus minus, accusantium sunt voluptatum repellendus, sit non repellat possimus, nisi laudantium a veritatis labore adipisci natus veniam esse.</p>
+        </div>
+        <div>
+            <h2>Artikel 3</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta architecto nobis accusamus minus, accusantium sunt voluptatum repellendus, sit non repellat possimus, nisi laudantium a veritatis labore adipisci natus veniam esse.</p>
+        </div>
+        <div>
+            <h2>Artikel 4</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta architecto nobis accusamus minus, accusantium sunt voluptatum repellendus, sit non repellat possimus, nisi laudantium a veritatis labore adipisci natus veniam esse.</p>
+        </div>
+    </div>
+</body>
+</html>
