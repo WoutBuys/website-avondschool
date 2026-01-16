@@ -30,3 +30,11 @@ body {
 .navbar-brand:hover {
     color: #384B31;
 }
+
+/* CSS voor Footer */
+.footer-container {
+    border-top: 1px solid #384B31;
+}
+.footer {
+    color: #333333;
+}
