@@ -38,3 +38,6 @@ body {
 .footer {
     color: #333333;
 }
+.footer-align-right {
+    text-align: end;
+}
