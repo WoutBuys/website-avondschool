@@ -1,32 +1,43 @@
 body {
-  background-color: #fbf0df;
-  font-family: "Lora", sans-serif;
-  color: #333333;
-  margin: 2vh 2vw 0vh 1vw;
+    background-color: #fbf0df;
+    font-family: "Lora", sans-serif;
+    color: #333333;
+    margin: 2vh 2vw 0vh 1vw;
 }
+.biggerandbolder {
+    font-size: 2vh;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
 /* CSS Voor Navbar */
 .navbar {
-    background-color:#B5C58B;
+    background-color: #B5C58B;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     border-top-left-radius: 2vh;
-    border-bottom-right-radius: 2vh;  
+    border-bottom-right-radius: 2vh;
 }
+
 .navbar-brand {
     color: #384B31;
 }
-.navbar-brand > img {
+
+.navbar-brand>img {
     height: 4vh;
     border-top-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
 }
-.navbar-collapse > ul li a {
+
+.navbar-collapse>ul li a {
     color: #384B31;
 }
-        /* Change colors (or not) when hovering over non-active menu items */
-.navbar-collapse > ul li a:hover {
+
+/* Change colors (or not) when hovering over non-active menu items */
+.navbar-collapse>ul li a:hover {
     color: #fbf0df;
 }
+
 .navbar-brand:hover {
     color: #384B31;
 }
@@ -34,10 +45,27 @@ body {
 /* CSS voor Footer */
 .footer-container {
     border-top: 1px solid #384B31;
+    margin-bottom: 1vh;
 }
+
 .footer {
     color: #333333;
 }
+
 .footer-align-right {
     text-align: end;
+}
+
+.footer-align-center {
+    text-align: center;
+}
+
+.footer-link {
+    color: #333333
+}
+
+/* CSS voor Index.html */
+.index-img {
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
 }
