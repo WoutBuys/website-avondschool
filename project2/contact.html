@@ -55,12 +55,100 @@
             </div>
         </div>
     </nav>
-    <h1>CONTACT Page</h1>
+    <main>
+        <h1 class="text-center">Wenst u mij te contacteren? Dat kan op volgende manieren:</h1>
+        <div class="row row-cols-1 row-cols-md-2 mb-4 text-center">
+            <div class="col d-flex justify-content-evenly">
+                <div class="card greenfont roundedcorners" style="width: 18rem;">
+                    <a href="mailto:r1094217@student.thomasmore.be"><img src="images/emailicoon.png"
+                            class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">E-mail</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-evenly">
+                <div class="card greenfontroundedcorners" style="width: 18rem;">
+                    <a href="https://www.linkedin.com/in/wout-buys-308076118/" target="_blank"><img
+                            src="images/LinkedIn_icon.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-center">Of u vult dit formulier in en ik contacteer u zo spoedig mogelijk.</h2>
+    </main>
 
-
-
-
-    <footer class="container footer-container">
+    <form method="post" action="https://tm-statweb.be/sendmail.php">
+        <input type="hidden" name="studentemail" value="r1094217@student.thomasmore.be">
+        <input type="hidden" name="subject" value="Contactform www.woutbuys.be/project2">
+        <div class="mb-3">
+            <label for="naam" class="form-label">Naam</label>
+            <input type="text" class="form-control" id="naam" aria-describedby="naam" required>
+        </div>
+        <div class="mb-3">
+            <label for="voornaam" class="form-label">Voornaam</label>
+            <input type="text" class="form-control" id="voornaam" aria-describedby="voornaam" required>
+        </div>
+        <div class="mb-3">
+            <label for="bedrijf" class="form-label">Bedrijfsnaam</label>
+            <input type="text" class="form-control" id="bedrijf" aria-describedby="bedrijf" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
+                pattern="@">
+        </div>
+        <h5>U vindt mijn profiel interessant omwille van volgende skills:</h5>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 m-4">
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill1">
+                <label class="form-check-label" for="skill1">Skill 1</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill2">
+                <label class="form-check-label" for="skill2">Skill 2</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill3">
+                <label class="form-check-label" for="skill3">Skill 3</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill4">
+                <label class="form-check-label" for="skill4">Skill 4</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill5">
+                <label class="form-check-label" for="skill5">Skill 5</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill6">
+                <label class="form-check-label" for="skill6">Skill 6</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill7">
+                <label class="form-check-label" for="skill7">Skill 7</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill8">
+                <label class="form-check-label" for="skill8">Skill 8</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill9">
+                <label class="form-check-label" for="skill9">Skill 9</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="skill10">
+                <label class="form-check-label" for="skill10">Skill 10</label>
+            </div>
+        </div>
+        <div>
+            <textarea name="bericht" id="bericht" placeholder="Uw bericht ..." required></textarea>
+        </div>
+        <input type="submit" value="Verzenden" class="btn btn-dark darkgreenbackground">
+    </form>
+    <footer class="container footer-container mt-2">
         <div class="row">
             <div class="col">© Wout Buys - 2025</div>
             <div class="col footer-align-center">
