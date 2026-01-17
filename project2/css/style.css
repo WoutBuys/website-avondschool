@@ -4,17 +4,21 @@ body {
     color: #333333;
     margin: 2vh 2vw 0vh 1vw;
 }
+
 .biggerandbolder {
     font-size: 2vh;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
+
 .greenbackground {
     background-color: #B5C58B;
 }
+
 .darkgreenbackground {
     background-color: #384B31;
 }
+
 .roundedcorners {
     border-top-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
@@ -77,5 +81,89 @@ body {
 /* CSS voor Index.html */
 .index-img {
     border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+
+/* CSS voor hobbys.html */
+.carousel {
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-bio-table {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container-bio>h2 {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    background-color: #384B31;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    padding: 0.5vh 1vw 0.5vh 8vh;
+    color: #fbf0df;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.container-bio>p {
+    margin-left: 6vh;
+    margin-right: 6vh;
+}
+
+.container-bio>img {
+    margin-left: 6vh;
+    display: block;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 6vh;
+}
+
+td,
+th {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #B5C58B;
+}
+
+tr:hover {
+    background-color: #384B31;
+    color: #fbf0df;
+}
+
+th {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #384B31;
+    color: #fbf0df;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.th-topleft {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #384B31;
+    color: #fbf0df;
+    border-top-left-radius: 2vh;
+}
+
+.td-bottomright:hover {
     border-bottom-right-radius: 2vh;
 }
