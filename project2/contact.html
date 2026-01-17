@@ -79,75 +79,76 @@
         </div>
         <h2 class="text-center">Of u vult dit formulier in en ik contacteer u zo spoedig mogelijk.</h2>
     </main>
-
-    <form method="post" action="https://tm-statweb.be/sendmail.php">
+    <!-- Form -->
+    <form action="https://tm-statweb.be/sendmail.php" method="post">
         <input type="hidden" name="studentemail" value="r1094217@student.thomasmore.be">
         <input type="hidden" name="subject" value="Contactform www.woutbuys.be/project2">
+
         <div class="mb-3">
             <label for="naam" class="form-label">Naam</label>
-            <input type="text" class="form-control" id="naam" aria-describedby="naam" required>
+            <input type="text" name="naam" class="form-control" id="naam" required>
         </div>
         <div class="mb-3">
             <label for="voornaam" class="form-label">Voornaam</label>
-            <input type="text" class="form-control" id="voornaam" aria-describedby="voornaam" required>
+            <input type="text" name="voornaam" class="form-control" id="voornaam" required>
         </div>
         <div class="mb-3">
             <label for="bedrijf" class="form-label">Bedrijfsnaam</label>
-            <input type="text" class="form-control" id="bedrijf" aria-describedby="bedrijf" required>
+            <input type="text" name="bedrijf" class="form-control" id="bedrijf" required>
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
-                pattern="@">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" id="email" required>
         </div>
         <h5>U vindt mijn profiel interessant omwille van volgende skills:</h5>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 m-4">
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill1">
-                <label class="form-check-label" for="skill1">Skill 1</label>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 m-4">
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill1" name="skill1" value="Skill1">
+                    <label class="form-check-label" for="skills">Skill 1</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill2" name="skill2" value="Skill2">
+                    <label class="form-check-label" for="skills">Skill 2</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill3" name="skill3" value="Skill3">
+                    <label class="form-check-label" for="skills">Skill 3</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill4" name="skill4" value="Skill4">
+                    <label class="form-check-label" for="skills">Skill 4</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill5" name="skill5" value="Skill5">
+                    <label class="form-check-label" for="skills">Skill 5</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill6" name="skill6" value="Skill6">
+                    <label class="form-check-label" for="skills">Skill 6</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill7" name="skill7" value="Skill7">
+                    <label class="form-check-label" for="skills">Skill 7</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill8" name="skill8" value="Skill8">
+                    <label class="form-check-label" for="skills">Skill 8</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill9" name="skill9" value="Skill9">
+                    <label class="form-check-label" for="skills">Skill 9</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="skill10" name="skill10" value="Skill10">
+                    <label class="form-check-label" for="skills">Skill 10</label>
+                </div>
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill2">
-                <label class="form-check-label" for="skill2">Skill 2</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill3">
-                <label class="form-check-label" for="skill3">Skill 3</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill4">
-                <label class="form-check-label" for="skill4">Skill 4</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill5">
-                <label class="form-check-label" for="skill5">Skill 5</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill6">
-                <label class="form-check-label" for="skill6">Skill 6</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill7">
-                <label class="form-check-label" for="skill7">Skill 7</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill8">
-                <label class="form-check-label" for="skill8">Skill 8</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill9">
-                <label class="form-check-label" for="skill9">Skill 9</label>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="skill10">
-                <label class="form-check-label" for="skill10">Skill 10</label>
-            </div>
-        </div>
         <div>
-            <textarea name="bericht" id="bericht" placeholder="Uw bericht ..." required></textarea>
+            <textarea name="bericht" id="bericht" placeholder="Uw bericht ..." rows="10" cols="50" required></textarea>
         </div>
-        <input type="submit" value="Verzenden" class="btn btn-dark darkgreenbackground">
+        <input type="submit" value="Verzenden">
     </form>
+    <!-- Footer -->
     <footer class="container footer-container mt-2">
         <div class="row">
             <div class="col">© Wout Buys - 2025</div>
