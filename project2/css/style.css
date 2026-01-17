@@ -203,3 +203,12 @@ form {
     color: #fbf0df;
     box-shadow: 0 0 0 0;
 }
+
+.cv-h2 {
+    font-family: "Montserrat", sans-serif;
+    border-top: 4px solid #384B31;
+    margin: 2vh 10vh 1vh 10vh;
+    padding-top: 1vh;
+    border-top-right-radius: 2vh;
+    border-top-left-radius: 2vh;
+}
