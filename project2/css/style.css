@@ -15,6 +15,10 @@ body {
     background-color: #B5C58B;
 }
 
+.lightbackground {
+    background-color: #fbf0df;
+}
+
 .greenfont {
     color: #384B31;
 }
@@ -179,9 +183,23 @@ textarea {
     box-sizing: border-box;
     min-height: 100px;
 }
+
 form {
     border: 2px solid #384B31;
     padding: 1vh;
     border-top-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
+}
+
+
+/* CSS voor ervaring.html */
+.accordion-button:not(.collapsed) {
+    background-color: #384B31;
+    color: #fbf0df;
+}
+
+.accordion-button:focus {
+    background-color: #384B31;
+    color: #fbf0df;
+    box-shadow: 0 0 0 0;
 }
