@@ -176,6 +176,10 @@ caption {
     border-bottom-right-radius: 2vh;
 }
 
+.bio-img {
+    max-width: 80%;
+}
+
 
 /* CSS voor Contact.html */
 textarea {
